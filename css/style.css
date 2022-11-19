@@ -234,6 +234,9 @@ body{
     background-color: rgb(24, 25, 26);
     
 }
+
+
+
 .group-top1-left {
     padding-left: 10px;
 }
@@ -280,18 +283,66 @@ body{
 }
 
 
+/* LEFT  groups */
+.atalhos-gp{
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 15px;
+    
+}
+.atalhos-gp p{
+    color: rgb(184, 187, 191);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    text-align: center; 
+    padding-left: 10;
+}
 
 
+/* LEFT end  groups */
 
+/* LEFT  groups item */
 
+.group-grupos-items{
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 10px;
+    
+}
+.item-grp-gp {
+    width: 100%;
+    gap: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+.item-grp-gp-img-desc{
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    padding-left: 10;
+}
+.item-grp-gp:hover{
+    background-color:rgb(48, 48, 49);
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+.item-grp-gp p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    text-align: center; 
+}
 
-
-
-
-
-
-
-
+.img-left-menu-group{
+    width: 35px;
+    height: 35px;
+    
+    
+}
 
 
 .right-content{
