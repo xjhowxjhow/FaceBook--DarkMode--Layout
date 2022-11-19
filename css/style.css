@@ -469,6 +469,7 @@ body{
 /* grid box rells */
 
 .grid-rells{
+    position: relative;
     height: 100%;
     width: 100%;
     padding: 10px;
@@ -476,6 +477,36 @@ body{
     overflow: hidden;
     
 }
+
+.btn-next-rells{
+    position: absolute;
+    top: 50%;
+    right: 40;
+    height: 35px;
+    width: 35px;
+    transform: translateY(-50%);
+    background-color: rgb(62, 64, 66);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-next-rells svg{
+    width: 25px;
+    height: 25px;
+    fill: #fff;
+}
+.btn-next-rells:hover{
+    background-color: rgb(82, 83, 85);
+    transition: all 0.3s ease;
+
+}
+
+
 .item-rells-box{
     width: 150px;
     border-radius: 10px;
@@ -724,7 +755,7 @@ body{
 }
 
 .img-item-rells-box:hover{
-    opacity: 0.5;
+
     transform: scale(1.05);
     transition: all 0.3s ease;
 }
