@@ -964,7 +964,9 @@ body{
     padding: 10px 10px 10px 10px; 
     position: relative;
     gap: 10px;
+    
 }
+
 
 .group-icons-reactions-ctngem {
     justify-content: space-between;
@@ -1040,4 +1042,79 @@ body{
     gap: 10px;
     padding: 0;
     margin: 0;
+}
+
+
+/* fim coluna 4 */
+
+/* linha separadora reacoes entr opcoes reac */
+.line-separator-pub{
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    opacity: 0.2;
+    margin: 0px 10px 10px 0px; 
+}
+
+/* coluna 5 opçoes reacçoes */
+
+.pub-col5-items-option-reaction {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 10px; 
+    position: relative;
+    gap: 10px;
+    
+}
+.pub-col5-items-option-reaction p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+.pub-col5-items-option-reaction i{
+    fill: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+.item-opt-btn-reaction{
+    border-radius: 5px;
+}
+.item-opt-btn-reaction:hover{
+    background-color: rgb(58, 59, 60);
+   
+}
+.btn-like-pub{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    flex-grow: 1;
+    padding: 5px;
+
+}
+.btn-comment-pub {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    flex-grow: 1;
+    padding: 5px;
+}
+
+.btn-share-pub {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    flex-grow: 1;
+    padding: 5px;
 }
