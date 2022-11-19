@@ -210,6 +210,9 @@ body{
     border-bottom: 2px solid rgb(21, 110, 224);
 }
 
+.item-home1 svg{
+    fill: rgb(21, 110, 224);
+}
 
 
 
@@ -449,11 +452,18 @@ body{
     align-items: center;
     padding-left: 10;
 }
+
+
+
 .item-rells-main-img-desc svg{
     width: 20px;
     height: 20px;
     fill: #fff;
 }
+.current-btn-rell svg{
+    fill: rgb(21, 110, 224);
+    
+ }
 
 .item-rells-main-img-desc p{
     color: rgb(184, 187, 191);
@@ -795,7 +805,6 @@ body{
     
     background-color: rgb(36, 37, 38);
     width: 100%;
-    height: 500px;
     border-radius: 10px;
     margin-top: 10px;
     
@@ -877,6 +886,12 @@ body{
     margin: 0;
 }
 
+.icon-status-pub-private-public svg{
+
+    fill: #fff;
+    cursor: pointer;
+}
+
 /* pub settings btn */
 
 .options-pub-settings svg{
@@ -931,7 +946,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    position:absolute;
+
 
 
 }
@@ -939,4 +954,90 @@ body{
     width: 100%;
     height: 100%;
     cursor: pointer;
+}
+
+/*  coluna 4 reaçoes da pub e comentarios compartilhamentos */
+
+.pub-col4-items-social-reaction{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 10px; 
+    position: relative;
+    gap: 10px;
+}
+
+.group-icons-reactions-ctngem {
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+/* icones reacxçoes colocar aq */
+.icons-reactions{
+
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    fill: #fff;
+
+}
+/* contagem lilkes */
+
+.contagem-likes-pub{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contagem-likes-pub p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+/*  comentarios compartilhamentos */
+
+.group-share-infos-comment {
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.contagem-comments-pub {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contagem-comments-pub p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.contagem-shares-pub {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}   
+
+.contagem-shares-pub p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
 }
