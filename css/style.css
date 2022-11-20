@@ -50,7 +50,7 @@ body{
 
 .hd_item_header_logo{
 
-
+    width: 20%;
     margin: 0 0 0 15px;
     padding: 0 0px;
 
@@ -109,6 +109,7 @@ body{
     margin: 0 auto;
     padding: 0 90px;
     border-radius: 5px;
+    width: 35%;
     
     
     
@@ -156,20 +157,21 @@ body{
 .hd_item_header_right_menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     margin: 0;
     padding: 0 15px;
     gap: 10px;
+    width: 20%;
 
 }
 
 .item_rightmenu{
     position: relative;
-    display: flex;
     flex-direction: row;
     justify-content:flex-end;
-    margin: 0 auto;
+    align-items: center;
+    margin: 0;
     background-color: rgb(58, 59, 60);
     height: 40px;
     width: 40px;
@@ -1182,5 +1184,15 @@ body{
     .search_icon-mobile svg{
         fill: #fff;
         font-size: 20px;
+    }
+    .btns-rells p{
+        font-size: 11px;
+    }
+
+    .hd_item_header_logo{
+        width: 100%;
+    }
+    .hd_item_header_right_menu{
+        width: 100%;
     }
 }
