@@ -1152,5 +1152,14 @@ body{
     }
 
     /* header */
-    
+    /* busca do header */
+    .search_header{
+        width: 45px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    .hd_item_header_center_menu {
+        display: none;
+    }
 }
