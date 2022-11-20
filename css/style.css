@@ -1,4 +1,21 @@
 
+
+  *::-webkit-scrollbar {
+    width: 5px;              
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;     
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(101, 103, 103);    
+    border-radius: 20px;     
+    border: 0px solid orange;  
+  }
+
+
+
 body{
     background-color: rgb(24, 25, 26);
     font-family: 'Open Sans', sans-serif;
@@ -234,7 +251,7 @@ body{
     top: 60;
     width: 20%;
     background-color: #fff;
- 
+    overflow:auto; 
     height: 100vh;
     background-color: rgb(24, 25, 26);
     
@@ -351,6 +368,7 @@ body{
 
 
 .right-content{
+    overflow:auto; 
     position: fixed;
     top: 60;
     width: 20%;
