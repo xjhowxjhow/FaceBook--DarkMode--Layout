@@ -1,5 +1,17 @@
 
+  body::-webkit-scrollbar {
+    width: 5px;              
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent;     
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(199, 201, 201);    
+    border-radius: 20px;     
 
+  }
   *::-webkit-scrollbar {
     width: 5px;              
   }
@@ -11,7 +23,7 @@
   *::-webkit-scrollbar-thumb {
     background-color: rgb(101, 103, 103);    
     border-radius: 20px;     
-    border: 0px solid orange;  
+
   }
 
 
