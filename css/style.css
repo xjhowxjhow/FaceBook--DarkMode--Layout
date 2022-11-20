@@ -1133,7 +1133,7 @@ body{
         width: 100%;
         left: auto;
         right: auto;
-        padding: 15px 0 15px 10;
+
         margin: 0;
 
         
@@ -1161,5 +1161,9 @@ body{
 
     .hd_item_header_center_menu {
         display: none;
+    }
+
+    .item-rells-box{
+        min-width: 120px;
     }
 }
