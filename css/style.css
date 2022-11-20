@@ -1116,7 +1116,10 @@ body{
     padding: 5px;
 }
 
-
+.search_icon-mobile{
+    
+    display: none;
+}
 
 /* fim coluna 5 */
 
@@ -1154,7 +1157,7 @@ body{
     /* header */
     /* busca do header */
     .search_header{
-        width: 45px;
+        width: 40px;
         height: 40px;
         border-radius: 50%;
     }
@@ -1165,5 +1168,19 @@ body{
 
     .item-rells-box{
         min-width: 120px;
+    }
+
+    .search_icon-mobile{
+    
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: relative;
+        
+        
+    }
+    .search_icon-mobile svg{
+        fill: #fff;
+        font-size: 20px;
     }
 }
